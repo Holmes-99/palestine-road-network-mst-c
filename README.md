@@ -49,3 +49,26 @@ Haifa#Nazareth#6
 4. Compare Both Algorithms — side by side cost and execution time
 
 ## Sample Output
+Prim's Algorithm:
+Total MST Cost : 312 km
+Execution Time : 0.000412 seconds
+Kruskal's Algorithm:
+Total MST Cost : 312 km
+Execution Time : 0.000387 seconds
+
+## Key Concepts
+- Graph representation (adjacency matrix / edge list)
+- Union-Find (Disjoint Set) for cycle detection in Kruskal's
+- Greedy algorithms
+- Time complexity analysis
+
+## Time Complexities
+| Algorithm  | Time Complexity  |
+|------------|-----------------|
+| Prim's     | O(V²) or O(E log V) with priority queue |
+| Kruskal's  | O(E log E)      |
+
+## Course Info
+- Course: COMP2421 — Data Structures
+- University: Birzeit University
+- Semester: Spring 2024/2025
